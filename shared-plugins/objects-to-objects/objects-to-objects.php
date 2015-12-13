@@ -29,3 +29,5 @@ if ( !class_exists( 'O2O_Connection_Taxonomy' ) ) {
 }
 
 add_action( 'init', array( O2O::GetInstance(), 'init' ), 20 );
+
+	require_once ( __DIR__ . '/vendor/autoload.php' );
