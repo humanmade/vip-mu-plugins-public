@@ -23,5 +23,5 @@ add_filter( 'nocache_headers', 'wpcom_vip_check_for_404_and_remove_cache_headers
 add_filter( 'got_url_rewrite', '__return_true' );
 
 // Activate concatenation
-require __DIR__ .'/http-concat/jsconcat.php';
-require __DIR__ .'/http-concat/cssconcat.php';
+//require __DIR__ .'/http-concat/jsconcat.php';
+//require __DIR__ .'/http-concat/cssconcat.php';
